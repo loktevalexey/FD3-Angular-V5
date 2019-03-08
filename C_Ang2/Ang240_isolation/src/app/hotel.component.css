@@ -1,0 +1,13 @@
+div.Hotel {
+  border: double blue 3px;
+  width: 500px;
+  padding: 0 20px 10px 20px;
+}
+
+div.Photo {
+  margin-bottom: 20px;
+}
+
+div {
+  border: double green 3px;
+}

@@ -1,0 +1,8 @@
+<div>
+  Звёзд: 
+  <span [ngSwitch]="getStarsStr()">
+    <span *ngSwitchCase="'min'">*</span>
+    <span *ngSwitchCase="'max'">*****</span>
+    <span *ngSwitchDefault>{{getStarsStr()}}</span>
+  </span>
+</div>

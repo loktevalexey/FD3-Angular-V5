@@ -1,0 +1,47 @@
+div.Hotel {
+  border: double blue 3px;
+  width: 500px;
+  padding: 0 20px 10px 20px;
+}
+
+div.Photo {
+  margin-bottom: 20px;
+}
+
+form {
+  padding: 10px;
+}
+
+input {
+  outline: none;
+}
+
+/* валидное значение - зелёная рамка */
+input.ng-valid {
+  border: solid green 1px;
+}
+
+/* невалидное значение - красная рамка */
+input.ng-invalid {
+  border: solid red 1px;
+}
+
+/* неизменённое значение - серый фон */
+input.ng-pristine {
+  background-color: lightgrey;
+}
+
+/* изменённое значение - жёлтый фон */
+input.ng-dirty {
+  background-color: yellow;
+}
+
+/* валидная форма - зелёная двойная рамка */
+form.ng-valid {
+  border: double green 3px;
+}
+
+/* невалидная форма - красная двойная рамка */
+form.ng-invalid {
+  border: double red 3px;
+}

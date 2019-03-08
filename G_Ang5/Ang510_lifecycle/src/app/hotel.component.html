@@ -1,0 +1,17 @@
+<div class='Hotel'>
+
+  <hotel-title [hotel-name]="hotelName"></hotel-title>
+
+  Новое название: <input type=text [(ngModel)]="hotelName">
+  <br><br>
+
+  <div class='Photo'>
+    <img [src]="getPhoto()">
+  </div>
+
+  <div>
+    Комнаты:
+    {{getRooms()}}
+  </div>
+
+</div>

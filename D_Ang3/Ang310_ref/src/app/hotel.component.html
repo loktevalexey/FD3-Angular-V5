@@ -1,0 +1,19 @@
+<div class='Hotel'>
+
+  <hotel-title [hotel-name]="getName()"></hotel-title>
+
+  <div class='Photo'>
+    <img [src]="getPhoto()">
+  </div>
+
+  Отзыв: <input #comment type="text" (input)="false">
+  <br>
+  <span>Отзыв: {{comment.value}}</span>
+
+  <br><br>
+  <div>
+    Комнаты:
+    {{getRooms()}}
+  </div>
+
+</div>

@@ -1,0 +1,8 @@
+div.Slogan {
+  border: solid red 1px;
+}
+
+div.Text {
+  font-style: italic;
+  padding-left: 10px;
+}

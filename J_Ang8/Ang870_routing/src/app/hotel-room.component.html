@@ -1,0 +1,9 @@
+<div class="Room">
+  <b>Комната №{{getNum()}}</b>
+  кроватей: {{getBeds()}}
+  <br>
+  <div class="Bed" *ngFor="let bed of getBedsArray()"></div>
+  <div *ngIf="roomLink!=undefined">
+    <a [routerLink]="['/room',getNum()]">страница</a>
+  </div>
+</div>

@@ -1,0 +1,6 @@
+<div>
+  Все комнаты отеля:<br>
+  <hotel-room *ngFor="let room of getRooms()" [num]="room.num" [beds]="room.beds" roomlink></hotel-room>
+</div>
+<br>
+<hotel-links></hotel-links>

@@ -1,0 +1,20 @@
+<div class='Hotel'>
+
+  <hotel-title [hotel-name]="hotelName"></hotel-title>
+
+  <div class='Photo'>
+    <img [src]="getPhoto()">
+  </div>
+
+  <div>
+    Комнаты:
+    {{getRooms()}}
+  </div>
+
+  <br>
+  <likes-counter></likes-counter>
+  <br>
+  <likes-buttons></likes-buttons>
+  <br>
+
+</div>

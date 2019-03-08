@@ -1,0 +1,14 @@
+<div class='Hotel'>
+
+  <h3 [style.border]='"solid red 1px"'>Отель &laquo;{{getName()}}&raquo;</h3>
+
+  <div class='Photo'>
+    <img [src]="getPhoto()" [style.width.px]="200">
+  </div>
+
+  <div [ngStyle]="{backgroundColor: 'yellow', color: 'red'}">
+    Комнаты:
+    {{getRooms()}}
+  </div>
+
+</div>

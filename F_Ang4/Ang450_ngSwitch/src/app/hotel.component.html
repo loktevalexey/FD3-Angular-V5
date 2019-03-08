@@ -1,0 +1,23 @@
+<div class='Hotel'>
+
+  <hotel-title [hotel-name]="getName()"></hotel-title>
+
+  <hotel-stars starsinput="+++"></hotel-stars><br>
+  <hotel-stars starsinput="min"></hotel-stars><br>
+  <hotel-stars starsinput="max"></hotel-stars><br>
+
+  <div>
+    Сейчас {{ getNow()|date:'dd.MM.yyyy HH:mm:ss' }}
+  </div>
+  <br>
+
+  <div class='Photo'>
+    <img [src]="getPhoto()">
+  </div>
+
+  <div>
+    Комнаты:
+    {{getRooms()}}
+  </div>
+
+</div>

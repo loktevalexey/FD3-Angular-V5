@@ -1,0 +1,24 @@
+<div class='Hotel'>
+
+  <hotel-title 
+    [hotel-name]="getName()" 
+    (like-add)="addLikes($event)" 
+    (like-reset)="resetLikes()"
+    >
+  </hotel-title>
+
+  <div class='Photo'>
+    <img [src]="getPhoto()">
+  </div>
+
+  <div>
+    Лайков: {{getLikes()}}
+  </div>
+  <br>
+
+  <div>
+    Комнаты:
+    {{getRooms()}}
+  </div>
+
+</div>

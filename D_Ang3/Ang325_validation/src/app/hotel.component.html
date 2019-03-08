@@ -1,0 +1,25 @@
+<div class='Hotel'>
+
+  <hotel-title [hotel-name]="getName()"></hotel-title>
+
+  <hotel-stars [starsinput]="getStars()"></hotel-stars>
+  <br>
+
+  <form #frm="ngForm" (ngSubmit)="testSubmit(frm)">
+  Новое название: <input name=newhotelname type=text ngModel="Bre" required minlength="5" ><br>
+  Новое количество звёзд: <input name=newstars type=text ngModel required pattern="[1-5]" ><br>
+  <input type=submit value="установить" [disabled]="!frm.valid"><br>
+  </form>
+  <br>
+
+  <div class='Photo'>
+    <img [src]="getPhoto()">
+  </div>
+  <br>
+
+  <div>
+    Комнаты:
+    {{getRooms()}}
+  </div>
+
+</div>

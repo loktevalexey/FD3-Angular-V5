@@ -1,0 +1,17 @@
+<div class='Hotel'>
+
+  <hotel-title [hotel-name]="getName()"></hotel-title>
+
+  <hotel-stars [starsinput]="getStars()"></hotel-stars>
+  <br>
+
+  <div class='Photo'>
+    <img [src]="getPhoto()">
+  </div>
+
+  <div>
+    Комнаты:<br>
+    <hotel-room *ngFor="let room of rooms" [num]="room.num" [beds]="room.beds"></hotel-room>
+  </div>
+
+</div>

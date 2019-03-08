@@ -1,0 +1,15 @@
+div.Room {
+  display: inline-block;
+  border: solid red 1px;
+  width: 130px;
+  padding: 3px 5px;
+}
+
+div.Bed {
+  display: inline-block;
+  background-color: lightgrey;
+  width: 15px;
+  height: 25px;
+  margin-right: 5px;
+  margin-top: 5px;
+}

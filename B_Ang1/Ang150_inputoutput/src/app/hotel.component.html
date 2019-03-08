@@ -1,0 +1,16 @@
+<div class='Hotel'>
+
+  <h3>Отель &laquo;{{hotelName}}&raquo;</h3>
+  <input type="text" [(ngModel)]="hotelName">
+  <br><br>
+
+  <div class='Photo'>
+    <img [src]="getPhoto()">
+  </div>
+
+  <div>
+    Комнаты:
+    {{getRooms()}}
+  </div>
+
+</div>

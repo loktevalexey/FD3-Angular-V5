@@ -1,0 +1,24 @@
+<div class='Hotel'>
+
+  <hotel-title [hotel-name]="getName()"></hotel-title>
+
+  <hotel-stars [starsinput]="getStars()"></hotel-stars>
+  <br>
+
+  <hotel-slogan [hotel-name]="getName()">
+    Через тернии &mdash; к звёздам!
+    <br>
+    У нас уже {{getStars()}}!
+  </hotel-slogan>
+  <br>
+
+  <div class='Photo'>
+    <img [src]="getPhoto()">
+  </div>
+
+  <div>
+    Комнаты:
+    {{getRooms()}}
+  </div>
+
+</div>

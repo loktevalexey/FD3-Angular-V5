@@ -1,0 +1,22 @@
+div.Hotel {
+  border: double blue 3px;
+  width: 500px;
+  padding: 0 20px 10px 20px;
+}
+
+div.Photo {
+  margin-bottom: 20px;
+}
+
+.RedBorder {
+  border: solid red 1px;
+}
+
+.SmallImage {
+  width: 200px;
+}
+
+.YellowRed {
+  background-color: yellow;
+  color: red;
+}

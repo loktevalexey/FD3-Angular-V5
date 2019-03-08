@@ -1,0 +1,19 @@
+<div class='Hotel'>
+
+  <br>
+  <input type="text" (input)="hotelName=$event.target.value" [value]="hotelName">
+  <br>
+
+  <hotel-title [hotel-name]="hotelName"></hotel-title>
+  <br>
+
+  <div class='Photo'>
+    <img [src]="getPhoto()">
+  </div>
+
+  <div>
+    Комнаты:
+    {{getRooms()}}
+  </div>
+
+</div>
