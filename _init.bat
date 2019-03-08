@@ -1,4 +1,5 @@
 git init
+git config credential.helper store
 git add .
 git commit -m "cloned"
 git remote add origin https://github.com/loktevalexey/FD3-Angular-V5.git
