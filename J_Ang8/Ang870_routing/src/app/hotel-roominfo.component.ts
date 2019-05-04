@@ -30,8 +30,4 @@ export class HotelRoomInfoComponent {
     return this.room;
   };
 
-  getPhoto():string {
-    return this.datasource.getPhoto();
-  };
-
 }
