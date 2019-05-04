@@ -33,4 +33,18 @@ export class HotelComponent {
     return this.stars;
   };
 
+  /*
+  trackByRoomNum(roomIndex:number,room:{num:number,beds:number}):any {
+    return room.num;
+  }
+  */
+
+ changeRooms():void {
+  this.rooms=[
+    { num:22, beds:2 },
+    { num:25, beds:5 },
+    { num:28, beds:4 },
+  ];
+ }
+
 }

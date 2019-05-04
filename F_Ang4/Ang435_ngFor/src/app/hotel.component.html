@@ -1,6 +1,6 @@
 <div class='Hotel'>
 
-  <hotel-title [hotel-name]="getName()"></hotel-title>
+  <hotel-title [hotel-name]="getName()" (click)="changeRooms()"></hotel-title>
 
   <hotel-stars [starsinput]="getStars()"></hotel-stars>
   <br>
